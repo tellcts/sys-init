@@ -1,0 +1,38 @@
+theme = "tzcan"
+
+[editor]
+true-color = true
+line-number = "relative"
+mouse = true
+rulers = [100]
+cursorline = true
+bufferline = "always"
+color-modes = true
+completion-trigger-len = 1
+idle-timeout = 0
+gutters = ["diff","diagnostics","line-numbers","spacer"]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.whitespace.render]
+space = "all"
+
+[editor.indent-guides]
+render = true
+skip-levels = 1
+character = "┆"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode","version-control","spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "|"
+mode.normal = "普通模式"
+mode.insert = "插入模式"
+mode.select = "选择模式"

@@ -1,0 +1,8 @@
+# Python解释器镜像
+python-install-mirror = "https://registry.npmmirror.com/-/binary/python-build-standalone/"
+
+# PyPI 清华镜像源
+[[index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true

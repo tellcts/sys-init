@@ -1,0 +1,61 @@
+inherits = "dracula"
+
+"attribute"                       = { fg = "tzcan_white",      modifiers = ["bold","italic"] }
+"comment"                         = { fg = "comment",          modifiers = ["italic"]        }
+"comment.block"                   = { fg = "comment",          modifiers = ["italic"]        }
+"comment.block.documentation"     = { fg = "comment",          modifiers = ["italic"]        }
+"comment.line"                    = { fg = "comment",          modifiers = ["italic"]        }
+"comment.line.documentation"      = { fg = "comment",          modifiers = ["italic"]        }
+"constant"                        = { fg = "tzcan_light_blue", modifiers = ["bold"]          }
+"constant.builtin.boolean"        = { fg = "tzcan_light_blue", modifiers = ["bold","italic"] }
+"constant.character"              = { fg = "tzcan_green"                                     }
+"constant.character.escape"       = { fg = "tzcan_light_blue"                                }
+"constant.numeric.float"          = { fg = "tzcan_number_color"                              }
+"constant.numeric.integer"        = { fg = "tzcan_number_color"                              }
+"function"                        = { fg = "tzcan_yellow"                                    }
+"function.builtin"                = { fg = "tzcan_yellow"                                    }
+"function.macro"                  = { fg = "tzcan_yellow"                                    }
+"keyword"                         = { fg = "fn_color",         modifiers = ["bold","italic"] }
+"keyword.control"                 = { fg = "tzcan_blue",       modifiers = ["bold","italic"] }
+"keyword.control.conditional"     = { fg = "tzcan_blue",       modifiers = ["bold","italic"] }
+"keyword.control.import"          = { fg = "fn_color",         modifiers = ["bold","italic"] }
+"keyword.control.repeat"          = { fg = "tzcan_blue",       modifiers = ["bold","italic"] }
+"keyword.control.return"          = { fg = "tzcan_blue",       modifiers = ["bold","italic"] }
+"keyword.function"                = { fg = "fn_color",         modifiers = ["bold","italic"] }
+"keyword.operator"                = { fg = "fn_color",         modifiers = ["bold","italic"] }
+"keyword.storage"                 = { fg = "fn_color",         modifiers = ["bold","italic"] }
+"keyword.storage.modifier"        = { fg = "fn_color",         modifiers = ["bold","italic"] }
+"keyword.storage.modifier.mut"    = { fg = "tzcan_blue",       modifiers = ["bold","italic"] }
+"keyword.storage.modifier.ref"    = { fg = "tzcan_blue",       modifiers = ["bold","italic"] }
+"keyword.storage.type"            = { fg = "fn_color",         modifiers = ["bold","italic"] }
+"label"                           = { fg = "fn_color",         modifiers = ["bold","italic"] }
+"namespace"                       = { fg = "tzcan_purple"                                    }
+"operator"                        = { fg = "fn_color",         modifiers = ["bold"]          }
+"punctuation"                     = { fg = "tzcan_white",      modifiers = ["bold","italic"] }
+"punctuation.delimiter"           = { fg = "fn_color",         modifiers = ["bold"]          }
+"punctuation.special"             = { fg = "fn_color"                                        }
+"special"                         = { fg = "fn_color",         modifiers = ["bold"]          }
+"string"                          = { fg = "tzcan_green"                                     }
+"type"                            = { fg = "tzcan_redpink"                                   }
+"type.builtin"                    = { fg = "tzcan_light_blue", modifiers = ["bold","italic"] }
+"type.enum.variant"               = { fg = "tzcan_purple",     modifiers = ["bold","italic"] }
+"type.enum.variant.builtin"       = { fg = "tzcan_purple",     modifiers = ["bold","italic"] }
+"variable"                        = { fg = "tzcan_white"                                     }
+"variable.builtin"                = { fg = "fn_color",         modifiers = ["bold","italic"] }
+"variable.builtin.mutable"        = { underline = { color = "fn_color",    style = "line" }  }
+"variable.mutable"                = { underline = { color = "tzcan_white", style = "line" }  }
+"variable.parameter"              = { fg = "orange"                                          }
+"variable.parameter.mutable"      = { underline = { color = "orange",      style = "line" }  }
+
+
+[palette]
+fn_color = "#F97583"
+orange = "#FFAB70"
+tzcan_blue = "#32ADFF"
+tzcan_green = "#61D361"
+tzcan_light_blue = "#79B8FF"
+tzcan_number_color = "#3FD2DF"
+tzcan_purple = "#B392F0"
+tzcan_redpink = "#FF69B4"
+tzcan_white = "#FFFFFF"
+tzcan_yellow = "#E4E473"
